@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+    <html>
+        <head>     
+            <title> El7aa2ny </title>
+            <style>
+                @import url('https://fonts.googleapis.com/css?family=Changa');
+                *{
+                  font-family: 'Changa',
+                  sans-serif;
+                }
+                body{
+                  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(1,0,0,0.5)),url('cobo.jpg') ;
+                  background-repeat: no-repeat;
+                  background-size: 130%;
+                }
+                ul{
+                  float: right;
+                  margin-top: 15px;
+                  margin-right: 70px;
+                  list-style-type: none;
+                  border-radius:25px;
+
+                 }
+                ul li{
+                 display: inline-block;
+                }
+
+                ul li a{
+                text-decoration: none;
+                color: #fff;
+                padding: 5px 20px;
+                border:1px solid transparent ;
+                border-radius: 15px;
+                transition: 0.8s ease; 
+                font-size: 20px;
+                margin-right: 5px
+                }
+
+                ul li a:hover{
+                color:orange;
+                background-color: #fff;
+                }
+                ul li.active a{
+                color:orange;
+                background-color: #fff;
+                }
+
+                li a, .dropbtn {
+                  display: inline-block;
+                  color: white;
+                  text-align: center;
+                  padding: 5px 20px;
+                  text-decoration: none;
+                }
+
+                li a:hover, .dropdown:hover .dropbtn {
+                  color: orange;
+                  background-color: #fff;
+                }
+
+                li.dropdown {
+                  display: inline-block;
+                  color: white;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  border-radius: 15px;
+                }
+
+                .dropdown-content {
+                  display: none;
+                  position: absolute;
+                  background-color: #f9f9f9;
+                  min-width: 10px;
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  z-index: 1;
+                  border:1px solid transparent ;
+                border-radius: 15px;
+                }
+
+                .dropdown-content a {
+                  color: orange;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  display: block;
+                  text-align: left;
+
+                }
+
+                .dropdown-content a:hover {
+                  background-color: #7d7c7a;
+                }
+
+                .dropdown:hover .dropdown-content {
+                  display: block;
+                }
+
+               .dod{
+                margin: 0px
+                }
+
+                h1{color: white;
+                margin-top: -50px;
+                margin-left: 400px;
+                letter-spacing: 3px;
+                font-size: 40px}
+               
+                p{
+                color: orange ;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                font-size: 20px}
+           
+                input{
+                border: 0;
+                width: 186px;
+                padding:20px ;
+                margin-right:0px;
+                margin-left: 0px;
+                background: white;
+                color: orange 
+                }
+               
+                input:hover{
+                color: orange;
+                box-shadow: 1px 1px 12px ;
+                background-color: white
+                }
+                
+                .button{
+                font-style: italic;
+                border: 0px;
+                width: 456px;
+                background-color: white;
+                margin: 0px;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                color: orange;
+                box-shadow: 0PX 5PX #00000000;
+                font-size: 20px;
+                padding:30px;
+                padding-bottom: 10px;
+                border-radius-botton:1px;
+                }
+                
+                .button:hover{color: orange;
+                background: #fff;
+                box-shadow:1px 5px 3px;
+                }
+               
+                .login{
+                margin-left:0px;
+                background-color: rgba (0.0.0.0,9);
+                }
+               
+                .box{
+                margin-left: 10%; 
+                margin-top: 80PX ;
+                padding: 0px 0px ;
+                background: rgba(0,0,5,0.4)
+                box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+                border-radius: 20px
+                }
+                
+                .n2{
+                margin-left: 1100px;
+                background: rgba(0, 0, 0, 0.1);
+                color: white;
+                border-radius: 30px;
+                box-shadow:0px 2px 6px;
+                }
+
+                .n2:hover{
+                background: white;
+                box-shadow: 0px 2px 22px orange;
+                color:BLACK;
+                }
+                 
+                .icon{margin-left:110px ;
+                margin-top: 20px;
+                border-bottom: 1px  ;
+                width:70px ;
+                border-left-width:100px
+                }
+            
+            </style>
+        </head>
+        <body>
+            
+    <ul>
+        <li class="active"><a href="login.html">تسجيل  </a></li>
+        <li><a href=" about.html "> احنا مين </a></li>
+        <li><a href="home.html"> الصفحه الرائيسية </a></li>
+    </ul>
+        <br><br>
+            
+            <form class="dod">
+                <div class="box">
+                
+                    <h1>الحقني</h1>
+                   
+                    <p>تسجيل الدخول</p>
+                  
+                    <div >  
+                        <div class="input">
+                            <input type="text" title="UserName" placeholder="اسم المستخدم"style="border-top-left-radius: 10px" > 
+                            <input type="password" placeholder=" كلمة السر " title="password" style="border-top-right-radius: 10px">
+                        </div>
+                        <div>
+                            <input class="button" type="submit" value="تسجيل الدخول"> 
+                    </div>
+                        
+                        <br>
+                        <input type="checkbox" style="width: 20px" >
+                        <label style="color: white ;margin-top:0px;" >تذكرني</label>
+                     
+                    <div class="icon">  
+                        <img class="iconnn" src="f.jpg" style="background: blue;background-size:100px;padding: 5PX ;border-radius: 10PX;box-shadow: 0PX 2PX 2PX ;margin-top:0px" >
+                        <img class="iconn" src="g.jpg" style="background: ORANGE;background-size:100px;padding: 5PX ;border-radius: 10PX;box-shadow: 0PX 2PX 2PX">
+                    </div>
+                    
+             </form>
+            
+            <br>
+           <div>
+                <center style="margin-right: 200px;background: ORANGE;border-radius:0px; padding: 2px; font-size:20px ">
+                   
+                </center> 
+                
+            </div> 
+            
+
+            <form>
+                <h2 style="margin-right: 200px ;color: ORANGE"> تسجيل </h2>
+                  
+                <div >  
+                    <div class="input">
+                        <input type="text" title="First Name" placeholder="الاسم"style="border-top-left-radius: 10px" >
+                        <input type="mobile" placeholder="اسم العائلة" title="Last Name" style="border-top-right-radius: 10px"><br>
+                        <div >
+                                <input type="name" placeholder="البريد الاكتروني" title="your Email" style="border--right-radius: 20px;width: 416px"><br>
+                                <input type="name" placeholder=" رقم الموبايل " title="your phone" style="border--right-radius: 0px;width: 416px"><br>
+                                <input type="name" placeholder="الكود" title="Given You Code" style="border--right-radius: 0px;width: 416px">
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <input class="button" type="submit" value="تسجيل"> 
+                </div>                        
+
+                 
+                    <input type="checkbox" style="width: 20px" >
+                <label style="color: powderblue" >تذكرني</label>
+            </form>
+           
+           
+      
+            
+            
+            
+        </div>
+      
+      
+        </body>        
+    </html>

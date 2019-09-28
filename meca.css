@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Changa');
+
+*{
+
+  font-family: 'Changa', sans-serif;
+
+}
+body{
+  font-family: arial;
+  background-image:url('mec.jpg') ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ul{
+  float: right;
+  margin-top: 20px;
+  margin-right: 70px;
+  list-style-type: none;
+  border-radius:25px;
+ }
+ul li{
+ display: inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border:1px solid #fff ;
+border-radius: 15px;
+transition: 0.8s ease; 
+font-size: 20px;
+
+}
+
+ul li a:hover{
+color:orange;
+background-color: #fff;
+}
+ul li.active a{
+color:orange;
+background-color: #fff;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: orange;
+  background-color: #fff;
+}
+
+li.dropdown {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border:1px solid transparent ;
+border-radius: 15px;
+}
+
+.dropdown-content a {
+  color: orange;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {background-color: #7d7c7a;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo img{
+  float:left;
+  width: 90px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 55px; 
+  margin-bottom: 0px;
+
+}
+
+.card{
+     width: 18%;
+     display: inline-block;
+     background-color:#949494bf ;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 8px; 
+     margin-top: 10px;
+     margin-left: 5%;
+     margin-right: 5px;
+     margin-bottom: 10px;
+
+    }
+
+.image img{ 
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 16%;
+  margin-right: 25%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+ }
+
+.mapa img
+{
+    display: inline-block;
+    width:40% ; 
+    border-radius:10% ;
+    position: relative ;
+    margin-top: 0px;
+    margin-left:30%;
+    padding: 0px;
+
+} 
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  margin-top: 0px;
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+p
+{
+  font-size: 20px;
+  margin-top:-20px; 
+  margin-right:0px;
+}
+button{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: #75757580;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+  font-size: 20px;
+  color: orange;
+  width: 70px;
+}
+button:hover{
+  background-color: black;
+  background-color: white;
+  color: orange;
+  transition: .5s;
+  cursor: pointer;
+}

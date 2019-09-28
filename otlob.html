@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            
+            <title> otlob </title>
+           
+            <style>
+                @import url('https://fonts.googleapis.com/css?family=Changa');
+                *{  font-family: 'Changa', sans-serif;}
+
+                body{  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(1,0,0,0.5)),
+                  url('cc.jpg') ;
+                  background-repeat: repeat;
+                  background-size: cover;
+                }
+
+                ul{
+                  float: right;
+                  margin-top: 20px;
+                  margin-right: 70px;
+                  list-style-type: none;
+                  border-radius:25px;
+
+                 }
+                ul li{
+                 display: inline-block;
+                }
+
+                ul li a{
+                text-decoration: none;
+                color: #fff;
+                padding: 5px 20px;
+                border:1px solid transparent ;
+                border-radius: 15px;
+                transition: 0.8s ease; 
+                font-size: 20px;
+                margin-right: 5px
+                }
+
+                ul li a:hover{
+                color:orange;
+                background-color: #fff;
+                }
+                ul li.active a{
+                color:orange;
+                background-color: #fff;
+                }
+
+                li a, .dropbtn {
+                  display: inline-block;
+                  color: white;
+                  text-align: center;
+                  padding: 5px 20px;
+                  text-decoration: none;
+                }
+
+                li a:hover, .dropdown:hover .dropbtn {
+                  color: orange;
+                  background-color: #fff;
+                }
+
+                li.dropdown {
+                  display: inline-block;
+                  color: white;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  border-radius: 15px;
+                }
+
+                .dropdown-content {
+                  display: none;
+                  position: absolute;
+                  background-color: #f9f9f9;
+                  min-width: 10px;
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  z-index: 1;
+                  border:1px solid transparent ;
+                border-radius: 15px;
+                }
+
+                .dropdown-content a {
+                  color: orange;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  display: block;
+                  text-align: left;
+
+                }
+
+                .dropdown-content a:hover {background-color: #7d7c7a;}
+
+                .dropdown:hover .dropdown-content {
+                  display: block;
+                }
+
+               .dod{margin: 0px}
+                h1{color: white; margin-top: -40px;margin-left: 35%;letter-spacing: 1px; font-size: 40px; margin-bottom:5%;}
+               
+                p{color: orange ;padding-bottom: 0px;margin-left: 165px;font-size: 20px}
+               
+                input{border: 15px;
+                      width: 186px;
+                      padding:20px;
+                      margin-right:0px;
+                      margin-left: 0px; 
+                      background: white
+                      ;color: orange ;
+                      font-size:18px  }
+               
+    input:hover{color: orange; box-shadow: 1px 1px 12px ;background-color: white}
+                
+                .button{font-style: italic;
+                border: 0px;
+                width: 456px;
+                background-color: black;
+                margin: 0px;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                color: orange;
+                box-shadow: 0PX 5PX orange;
+                font-size: 30px;
+                padding:20px;
+                padding-bottom: 10px;
+                border-radius-bottom:1px; }
+                
+    .button:hover{color: orange;background: #00000080;box-shadow:1px 5px 3px;}
+               
+                .login{margin-left: 0px;background-color: rgba (0.0.0.0,9);}
+               
+                .box{margin-left: 10%; 
+                    margin-top: 80PX ;
+                    padding: 0px 0px ;
+                    background: rgba(0,0,5,0.4)
+                    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+                    border-radius: 20px}
+                
+                .n2{margin-left: 1100px;
+                background: rgba(0, 0, 0, 0.1);
+                color: white;border-radius: 30px;
+                box-shadow:0px 2px 6px;}
+    .n2:hover{background: white;box-shadow: 0px 2px 22px orange;color:BLACK; }
+                
+
+                
+                .icon{margin-left:  110px ;margin-top: 20px;border-bottom: 1px  ;width:70px ;border-left-width:100px }
+            
+            </style>
+        </head>
+        <body>
+            
+    <ul>
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"> اطلبنا بسرعة </a>
+        <div class="dropdown-content">
+        <a href="#"> اطلب ميكانيكي </a>
+        <a href="#"> اطلب ونش </a>
+        </div>    </li>
+        <li><a href="#">تسجيل  </a></li>
+        <li><a href="about.html "> احنا مين </a></li>
+        <li><a href="home.html"> الصفحه الرائيسية </a></li>
+    </ul>
+        <br><br>
+            
+    <form class="dod">
+        <div class="box">
+                
+            <h1> الحقني دايما  معاك </h1>
+                   
+            <p> برجاء ملئ البيانات </p>
+                  
+                <div class="input">
+                    <input type="text" title="UserName" placeholder="اسم المستخدم"style="border-top-left-radius: 10px" > 
+                    <input type="text" title="UserName" placeholder=" اسم العائلة "  style="border-top-right-radius: 10px">
+                    <br>
+                    <input type="text" title="UserName" placeholder="رقم الموبايل"  style="border-top-right-radius: 0px">
+                    <input type="text" title="UserName" placeholder=" نوع العربية "  style="border-top-right-radius: 0px">
+                    <br>
+                    <input type="text" title="UserName" placeholder=" اسم الشارع"style="border-top-left-radius: 0px" >
+                    <input type="text" title="UserName" placeholder=" المنطقة "style="border-top-left-radius: 0px" >
+                    
+                </div>
+                <div>
+                    <input class="button" type="submit" value="اطلب "> 
+                </div>
+                        <br><br><br><br>
+             </form>
+            
+
+
+           <div>
+                <center style="margin-right: 200px;margin-top: 50px; background: orange ;border-radius:0px; padding: 2px; font-size:20px ">
+                   
+                </center> 
+                
+            </div> 
+            
+
+           
+           
+           
+      
+            
+            
+            
+        </div>
+      
+      
+        </body>        
+    </html>
